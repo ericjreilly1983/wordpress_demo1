@@ -1,0 +1,275 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: magtranslation\n"
+"POT-Creation-Date: 2016-10-30 16:09+0500\n"
+"PO-Revision-Date: 2016-10-30 16:58+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: floating-next-prev.php:154
+msgid "Settings"
+msgstr ""
+
+#: admin/admin.php:290
+msgid "Want to show selective floating links?."
+msgstr ""
+
+#: admin/admin.php:292
+msgid "No problem at all. Simply Enable and Disable features from particular tab/section below."
+msgstr ""
+
+#: admin/admin.php:301
+msgid "Next Icon"
+msgstr ""
+
+#: admin/admin.php:309
+msgid "Enable"
+msgstr ""
+
+#: admin/admin.php:312
+msgid "Enable this option to show next icon on posts detail page. Changes will be saved automatically."
+msgstr ""
+
+#: admin/admin.php:318
+msgid "Previous Icon"
+msgstr ""
+
+#: admin/admin.php:329
+msgid "Enable this option to show Previous icon on posts detail page. Changes will be saved automatically."
+msgstr ""
+
+#: admin/admin.php:336
+msgid "Random Icon"
+msgstr ""
+
+#: admin/admin.php:347
+msgid "Enable this option to show Random icon on posts detail page. Changes will be saved automatically."
+msgstr ""
+
+#: admin/admin.php:355
+msgid "To Top Icon"
+msgstr ""
+
+#: admin/admin.php:361
+msgid "Show on posts"
+msgstr ""
+
+#: admin/admin.php:368
+msgid "Enable this option to show Top icon on posts. Changes will be saved automatically."
+msgstr ""
+
+#: admin/admin.php:370
+msgid "Show on pages"
+msgstr ""
+
+#: admin/admin.php:377
+msgid "Enable this option to show Top icon on pages. Changes will be saved automatically."
+msgstr ""
+
+#: admin/admin.php:386
+msgid "To Bottom Icon"
+msgstr ""
+
+#: admin/admin.php:386
+msgid "Enable this option to show Bottom icon on posts. Changes will be saved automatically."
+msgstr ""
+
+#: admin/admin.php:408
+msgid "Enable this option to show Bottom icon on pages. Changes will be saved automatically."
+msgstr ""
+
+#: admin/admin.php:418
+msgid "Navigate in same category"
+msgstr ""
+
+#: admin/admin.php:429
+msgid "Enable this option to navigate floating links in same category. Changes will be saved automatically."
+msgstr ""
+
+#: admin/admin.php:437
+msgid "Enable Minimizer"
+msgstr ""
+
+#: admin/admin.php:448
+msgid "Enable this option to show close/minimizer icon. Changes will be saved automatically."
+msgstr ""
+
+#: admin/admin.php:492
+msgid "Successfully Updated"
+msgstr ""
+
+#: admin/admin.php:500
+msgid "Something went wrong"
+msgstr ""
+
+#: admin/admin.php:278
+msgid "General"
+msgstr ""
+
+#: admin/admin.php:281
+msgid "Design"
+msgstr ""
+
+#: admin/customizer.php:32
+msgid "Floating Links Settings"
+msgstr ""
+
+#: admin/customizer.php:43
+msgid "Change icons"
+msgstr ""
+
+#: admin/customizer.php:84
+msgid "Change Position"
+msgstr ""
+
+#: admin/customizer.php:84
+msgid "Show Floating Links on left, right, top and bottom side."
+msgstr ""
+
+#: admin/customizer.php:84
+msgid "Change Position"
+msgstr ""
+
+#: admin/customizer.php:112
+msgid "Position"
+msgstr ""
+
+#: admin/customizer.php:114
+msgid "Left"
+msgstr ""
+
+#: admin/customizer.php:115
+msgid "Right"
+msgstr ""
+
+#: admin/customizer.php:116
+msgid "Top"
+msgstr ""
+
+#: admin/customizer.php:117
+msgid "Bottom"
+msgstr ""
+
+#: admin/customizer.php:45
+msgid "Chose any icon from the list below and see the magic live."
+msgstr ""
+
+#: admin/customizer.php:62
+msgid "Customize design of your fancy floating links live."
+msgstr ""
+
+#: admin/customizer.php:88
+msgid "Background colour"
+msgstr ""
+
+#: admin/customizer.php:106
+msgid "Icons colour"
+msgstr ""
+
+#: admin/customizer.php:123
+msgid "Icons hover colour"
+msgstr ""
+
+#: admin/customizer.php:140
+msgid "Icons hover background colour"
+msgstr ""
+
+#: admin/customizer.php:177
+msgid "Icons separator colour"
+msgstr ""
+
+#: admin/customizer.php:154
+msgid "Icons size"
+msgstr ""
+
+#: admin/customizer.php:167
+msgid "Select left icon."
+msgstr ""
+
+#: admin/customizer.php:182
+msgid "Select right icon."
+msgstr ""
+
+#: admin/customizer.php:182
+msgid "Select random icon."
+msgstr ""
+
+#: admin/customizer.php:195
+msgid "Select up icon."
+msgstr ""
+
+#: admin/customizer.php:206
+msgid "Select down icon."
+msgstr ""
+
+
+#: admin/admin.php:269
+msgid "Like our Facebook fan page to stay updated"
+msgstr ""
+
+#: admin/admin.php:287
+msgid "Follow me on Twitter for WP Wisdom"
+msgstr ""
+
+#: admin/admin.php:293
+msgid "Like it? Then give us 5 star rating here:"
+msgstr ""
+
+#: admin/admin.php:294
+msgid "Rate it here"
+msgstr ""
+
+#: admin/admin.php:300
+msgid "Any question? Don’t hesitate to create a support ticket here:"
+msgstr ""
+
+#: admin/admin.php:300
+msgid "Open support ticket"
+msgstr ""
+
+#: admin/admin.php:343
+msgid "Awesome, you have been using"
+msgstr ""
+
+#: admin/admin.php:344
+msgid "Floating Links"
+msgstr ""
+
+#: admin/admin.php:345
+msgid "for more than 1 week."
+msgstr ""
+
+#: admin/admin.php:346
+msgid "May I ask you to give it a"
+msgstr ""
+
+#: admin/admin.php:347
+msgid "5-star "
+msgstr ""
+
+#: admin/admin.php:348
+msgid "rating on Wordpress?"
+msgstr ""
+
+#: admin/admin.php:349
+msgid "This will help to spread its popularity and to make this plugin a better one."
+msgstr ""
+
+#: admin/admin.php:350
+msgid "Your help is much appreciated. Thank you very much. "
+msgstr ""
+
+#: admin/admin.php:351
+msgid "I Like Floating Links - It increased engagement on my site"
+msgstr ""
+
+#: admin/admin.php:352
+msgid "No, not good enough, I do not like to rate it "
+msgstr ""

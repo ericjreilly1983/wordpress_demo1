@@ -1,0 +1,244 @@
+														/*Floating Links admin css*/
+.fl_wrap{
+         float: left;
+         width: 100%;
+       margin-top: 20px;
+
+    .row{
+    margin-bottom:0px;
+    }   
+
+    /*Tabs header scss*/    
+    .fl_tabs_header{ 
+
+          background-color: #7FC6A6;
+          color: #fff;
+          padding: 5px 0px;
+          height: 56px;
+          float: left;
+          width: 100%;
+
+     .fl_tabs_main{
+              float: right;
+             padding-right: 50px;
+
+        /*Tabs scss*/    
+        .tabs{
+             float: left;
+              width: auto;
+              height: auto;
+              background-color: transparent;
+              .tab{
+                  float: left;
+
+                  a{
+                      padding: 0 30px;
+                  }
+              }
+           
+          .indicator{
+               background-color: #1bf1e9;
+               margin-bottom: 0px;
+          }    
+
+        }/*Tabs scss ends here*/
+
+           a{
+                  color: #fff;
+                  display: table;
+                      height: 48px;
+
+                    i{
+                    display: table-cell;
+                  vertical-align: middle;
+                  float: none;
+                  width: 100%;
+                    }
+           } 
+
+      }  /*fl_tabs_main scss ends here*/
+
+    }  /*Tabs header scss ends here*/ 
+
+      .fl_tabs_content{
+            float: left;
+            padding-left: 0px;
+            background-color: #fff;  
+               
+            .fl_general_content{
+                padding: 15px;
+                float: left;
+                width: 100%;
+
+                h5{
+                    border-bottom: 1px solid #E5E5E5;
+                padding-bottom: 20px;
+                margin-bottom: 0px;
+                }
+                p{
+                    margin-bottom: 0px;
+                   margin-top: 20px;
+                       float: left;
+                }
+
+                .fl_down{
+                    margin-top: 18px;
+               margin-left: 4px;
+                }
+
+                .fl_collapsible_wrap{
+                    margin-top: 20px;
+                    padding: 0px;
+
+                    .collapsible{
+                        margin-top: 0px;
+
+                         .fl_checkbox_holder{
+                            float: left;
+                            padding-left: 0px;
+                            margin-bottom: 15px;
+                           } 
+
+                           p{
+                           text-transform: capitalize;
+                            font-size: 14px;
+                                float: none;
+                              border-bottom: 1px solid #E5E5E5;    
+                            padding-bottom  : 20px;
+
+                           }
+                        h5{
+                            margin-bottom: 20px;
+
+                        }  
+
+                    }
+
+
+                }
+            }
+      }
+
+
+  .fl_sliders_wrap{
+              float: left;
+                 background-color: #55b98c;
+                    padding: 11px 80px 10px 80px;
+               cursor: pointer;
+                  margin-top: -5px; 
+
+          #fl_sliders {
+             width: 36.5px;
+             height: 35px;
+            position: relative;
+            cursor: pointer;
+            float: left;
+                span {
+                width: 100%;
+                height: 2px;
+                display: block;
+                    background-color: #fff;
+                position: absolute;
+                -webkit-transform: translateY(-50%);
+                -moz-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+              }
+                span:nth-child(1) {
+              top: 25%;
+                }
+              span:nth-child(2) {
+            top: 54%;
+              }  
+              span:nth-child(3) {
+                top: 83%;
+              }
+              .box {
+                width: 7px;
+                height: 7px;
+                border-radius: 2px;
+                border: 1px solid #eee;
+                   background-color: #fff;
+                position: absolute;
+                top: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                -webkit-transition: left .3s;
+                -moz-transition: left .3s;
+                transition: left .3s;
+               }
+              span:nth-child(1) .box {
+                  left: 25%;
+                } 
+
+              span:nth-child(2) .box {
+                  left: 75%;
+                } 
+               span:nth-child(3) .box {
+              left: 25%;
+            }    
+          }
+          #fl_sliders:hover {
+              span:nth-child(1) .box {
+                left: 75%;
+              }
+              span:nth-child(2) .box {
+                left: 25%;
+              }
+
+              span:nth-child(3) .box {
+            left: 75%;
+              }
+          }    
+    } 
+}
+
+ /*Remove notifications on floating links page*/    
+.fl_msg{
+    border-left-color:#7FC6A6;
+
+    .fl_support_btns{
+    margin-top: 10px;
+    }
+  }
+ @font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/MaterialIcons-Regular.woff) format('woff');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+} 
+
+.toplevel_page_floating_links #wpcontent {
+      padding-right: 20px;
+}
+#toast-container{
+      bottom: 0 !important;
+    right: auto !important;
+    top: auto !important;
+    left: 43% !important;
+
+    .toast{
+         background-color: #55b98c !important;
+      margin-top: 0px !important;
+      padding: 25px 30px !important;
+      font-size: 20px !important;
+    }
+}

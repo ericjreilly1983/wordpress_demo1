@@ -1,0 +1,329 @@
+ h1, h2, h3, h4, h4, div, a, li {
+	font-family: 'Dosis', sans-serif;
+ }
+
+ul.dpe-flexible-posts {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ #sfsi-widget-2 {
+ 	position: relative;
+ 	right: 115px;
+ 	float: right;
+ 	margin-right: 15px;
+ }
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.flex-container {
+	display: flex;
+}
+
+div.single-post.column-item {
+	padding: 35px;
+	box-sizing: border-box;
+}
+
+.post-categories {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+
+
+/*ANIMATED IMAGE HOVER EFFECT*/
+
+.image-wrap {
+	position: relative;
+    width: 100%;   
+}
+
+.image-wrap:hover .wp-post-image {
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+}
+
+.wp-post-image {
+`opacity: 1;
+  display: block;
+  width: 97%;
+  height: 98%;
+  height: auto;
+  -webkit-transition: .5 ease;
+  transition: .8s ease;
+  transition-property: width, height, opacity;
+  -webkit-transition-property: width, height, opacity;
+}
+/*****************************************/
+
+
+
+.title-page {
+	text-align: center;
+}
+
+
+.wrapper, .columns {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+
+}
+
+
+
+
+.column-item {
+
+    width: 50%;
+   	margin: 0;
+   	padding: 35px;
+   
+    box-sizing: border-box;
+    float: left;
+
+  }
+
+/*make the last post clear the post to the left so it sits below it */
+/*div .column-item:nth-child(even){
+	clear: left;
+}*/
+
+
+/*search box in home sidebar*/
+
+/*.search-field, .search-submit{
+	float: left;
+}*/
+
+.content-area {
+	display: inline-block;
+	float: left;
+	width: 80%;
+	margin-right: 50px;
+	
+}
+
+#menu-primary-footer-menu {
+	text-align: center;
+	list-style: none;
+}
+
+#menu-primary-footer-menu li {
+	display: inline-block;
+}
+
+.home-sidebar {
+	display: inline-block;
+	width: 20%;
+	margin-left: 50px;
+	text-align: justify;
+	height: 100%;
+}
+.search-submit {
+	clear: right;
+}
+
+/*read-more button */
+.read-more {
+
+	border: 1px solid black;
+	text-align: center;
+/*	border-radius: 15px;*/
+	color: black;
+	display: inline-block;
+	  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  cursor:pointer;
+  border-radius: 9px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size:1rem;
+  background-color: #C0C0C0;
+font-family: Pacifica Condensed Regular;
+margin-left: 5px;
+box-sizing: border-box;
+box-shadow: 1px 1px;
+}
+
+
+
+
+
+/*.trailer {
+	text-align: center;
+}
+*/
+
+
+/*	CUSTOM NAVIGATION MENU - INSIDE HEADER UNDER LOGO*/
+
+.main-nav {
+	float: left;
+	
+}
+
+.main-nav ul {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 5;
+}
+
+.main-nav ul:before, .main-nav ul:after {content: ""; display: table;}
+
+.main-nav ul:after {clear: both;}
+
+.main-nav ul { *zoom: 1; }
+
+.main-nav ul li {
+	float: left;
+	list-style: none;
+}
+
+.site-header ul li {
+	margin-right: 7px;
+}
+
+.site-header ul li a:link,
+.site-header ul li a:visited {
+	display: block;
+	padding: 10px 18px;
+	border: 1px solid #BBB;
+	text-decoration: none;
+}
+
+.site-header ul li a:hover {
+	background-color: #ECECEC;
+}
+
+.site-header ul li.current-menu-item a:link,
+.site-header ul li.current-menu-item a:visited {
+	background-color: #006ec3;
+	color: #FFF;
+}
+
+/*dropdown menu */
+.main-nav ul ul {
+    background-color: #fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+    background: rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+    list-style: none;
+    position: absolute;
+    display: none; /* Hide off-screen when not needed (this is more accessible than display: none;) */
+}
+.main-nav ul ul li {
+    padding-top: 1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+    float: none;
+}
+.main-nav ul ul a {
+    white-space: nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+.main-nav ul li:hover ul { /* Display the dropdown on hover */
+    display: block; /* Bring back on-screen when needed */
+}
+.main-nav ul li:hover a { /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	background-color: #ECECEC;
+    text-decoration: underline;
+}
+.main-nav ul li:hover ul a { /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+    text-decoration: none;
+}
+.main-nav ul li:hover ul li a:hover { /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+    background-color: #55f;
+}
+/***********************************************************************/
+
+
+.site-footer nav ul li {
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px dotted #BBB;
+}
+
+.site-footer nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.site-footer {
+	background-color: #006ec3;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1.title a:visited {
+	color: #BBB;
+}
+
+
+/*OLD LOGO*/
+/*.custom-header {
+	position: relative;
+	width: 100%;
+    height: 100%;
+    background-repeat: repeat-y;
+    background-image: url("https://images.fastcompany.net/image/upload/w_1280,f_jpg,q_auto,fl_lossy/fc/3056523-poster-p-1-yesterdays-computer-virus-attacks-are-todays-high-art.gif");
+}*/
+
+
+/*ANIMATED LOGO*/
+
+.custom-header {
+	-webkit-animation-name: animatedLogo;
+	-webkit-animation-duration: 3s;
+	position: relative;
+	animation-name: animatedLogo;
+	animation-duration: 3s;
+	-webkit-transition-timing-function: ease-in-out;  /*safari compatibility*/
+	transition-timing-function: ease-in-out;
+}
+
+@keyframes animatedLogo {
+
+	0%{right: 2000px;}
+	100%{right: 0px;}
+}
+
+
+
+
+
+
+.after-logo: {
+	position: absolute;
+	top: 30px;
+}
+
+p.site-description {
+	background-color: rgba(50, 50, 50, .4);
+	position: absolute;
+	color: white;
+}
+
+p.site-title a:visited, p.site-title a {
+	color: white;
+	background-color: rgba(50, 50, 50, .4);
+}
+
+
+/*Trailer page list of actors*/
+.trailer-meta ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.trailer-meta {
+	text-align: center;
+}

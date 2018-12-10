@@ -1,0 +1,158 @@
+														/*Floating css*/
+.floating_next_prev_wrap
+	{
+	position:relative;
+
+			.floating_links
+					{
+					list-style-type: none;
+					position: fixed;
+				    top: 50%;
+				     right: 0px;
+				 	-webkit-transform: translate(0px, -50%);
+					  -moz-transform: translate(0px, -50%);
+					  -ms-transform: translate(0px, -50%);
+					  -o-transform: translate(0px, -50%);
+					transform: translate(0px, -50%);	
+					margin-bottom:0px; 
+					-webkit-box-shadow: -6px 4px 20px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: -6px 4px 20px 0px rgba(0,0,0,0.75);
+				box-shadow: -6px 4px 20px 0px rgba(0,0,0,0.75);
+				    z-index: 999;
+				    	a, .disabled 
+				    	{
+				    		 border-bottom: 1px solid #000;
+							    padding: 10px;
+								padding-left: 15px;
+							    padding-right: 15px;
+							    cursor: pointer;
+							    background-color: #fff;	
+								   box-shadow: none;
+								color: #000;
+							    font-size: 14px;
+							    display: -webkit-inline-box;
+							    clear: both;
+								float:left;
+							    width: 100%;
+								    text-align: center;  
+								 -webkit-transition:all ease-in-out 0.5s;
+							    -moz-transition:all ease-in-out 0.5s;
+							    -o-transition:all ease-in-out 0.5s;
+								transition:all ease-in-out 0.5s;
+
+								.dashicons
+								{
+								    width: auto;
+								    height: auto;
+								    font-size: inherit;
+								    line-height: inherit;
+								        text-decoration: none;
+								}
+
+				    	}
+				    	a:hover
+							{
+							background-color:#000;
+							 -webkit-transition:all ease-in-out 0.5s;
+						    -moz-transition:all ease-in-out 0.5s;
+						    -o-transition:all ease-in-out 0.5s;
+							transition:all ease-in-out 0.5s;
+							border-bottom: 1px solid #fff;
+							color: #fff;	
+							}	
+
+						
+					.fl_inner_wrap{
+					    float: left;
+
+					    .fl_icon_holder{
+					    position: relative;
+					    display: inline-block;
+					    	.fl_post_details {
+							    visibility: hidden;
+							    text-align: left;
+							     z-index: 1;
+								    top: -5px;
+								    right: 105%;
+								    position: absolute;
+								    margin: 0;
+								    width: 400px;
+								    background: #fff;
+								    color: #000;
+								    border: 1px solid #ddd;
+								    border-right: 0;
+								    height: 148px;
+								    -webkit-box-shadow: 0 0 26px -1px rgba(0,0,0,.1);
+								    -moz-box-shadow: 0 0 26px -1px rgba(0,0,0,.1);
+								    box-shadow: 0 0 26px -1px rgba(0,0,0,.1);
+							}
+							.fl_post_title{
+							    font-size: 15px;
+							    text-transform: uppercase;
+							    font-weight: bold;
+							    padding: 5px 15px;
+							    border-bottom: 1px solid rgba(0,0,0,.1);
+							    font-weight: 700;
+							}
+							.fl_post_description{
+							    padding: 15px;
+
+							    h6{
+							        font-size: 16px;
+								    line-height: 18px;
+								    margin-top:0px;
+								    margin-bottom: 5px;
+							    }
+							    p{
+							        font-size: 13px;
+							            margin: 0px;
+							    }
+							}
+							&:hover .fl_post_details {
+   								visibility: visible;
+							}
+					    }
+					}				
+
+					.fl_slimer_Wrap{
+							    float: none;
+							    width: auto;
+							    background-color: #fff;
+							    color: #000;
+							    font-size: 14px;
+							   padding: 10px;
+							    padding-left: 15px;
+							    padding-right: 15px;
+							    cursor: pointer;
+							     -webkit-transition:all ease-in-out 0.5s;
+							    -moz-transition:all ease-in-out 0.5s;
+							    -o-transition:all ease-in-out 0.5s;
+								transition:all ease-in-out 0.5s;
+							    .fa{
+							    float: none;
+							    margin: 0px auto;
+							    display: table;
+							    }
+
+							   &:hover{
+							   	background-color:#000;
+								 -webkit-transition:all ease-in-out 0.5s;
+							    -moz-transition:all ease-in-out 0.5s;
+							    -o-transition:all ease-in-out 0.5s;
+								transition:all ease-in-out 0.5s;
+								border-bottom: 1px solid #fff;
+								color: #fff;	
+							   } 
+						}	
+
+						 .disabled
+							 	{
+								color: rgb(235, 235, 228) !important;
+							    cursor: default;
+							        
+								 .fl_post_details{
+								 display:none !important;
+								 }	
+								} 		
+					}	
+	}

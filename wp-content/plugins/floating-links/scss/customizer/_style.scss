@@ -1,0 +1,316 @@
+#accordion-section-fl_icons_section, #sub-accordion-section-fl_icons_section, #accordion-section-fl_design_section, #sub-accordion-section-fl_design_section, #sub-accordion-section-fl_position_section, #accordion-section-fl_position_section {
+
+      background-color: #fff !important;
+
+        .accordion-section-content{
+          background-color: #fff;
+        }  
+
+        .customize-control-title
+            {
+                  font-size: 20px;
+            margin-bottom: 6px;
+                text-transform: capitalize;
+            }
+
+         .customize-section-description
+            {
+               font-size: 18px;
+          border-bottom: 2px solid #ddd;
+          padding-bottom: 20px;
+            } 
+         .customize-control
+            {
+               border-bottom: 2px solid #ddd;
+            } 
+
+         .customize-control:last-child
+            {
+             border: none; 
+            }
+         .customize-control-radio .label
+            {
+                  float: left !important;
+              width: auto;
+              margin: 0px;
+                  padding: 0px;
+            }             
+         #customize-control-fl_left_icon
+            {
+             margin-bottom: 0px; 
+            }  
+         .floating_icon_holder
+              {
+                   float: left;
+                margin-right: 5px;
+                margin-bottom: 8px;
+               
+                
+                margin-left: 0px !important;
+                    position: relative;
+
+                      .fa, .dashicons
+                          {
+                            float: left;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            margin-left: auto;
+                            margin-right: auto;
+                            text-align: center;
+                            margin-top: 10px;
+                            font-size: 20px;
+                          } 
+
+                        input[type=radio]
+                          {
+                            background-color: transparent;
+                            border: 0px;
+                            height: auto;
+                            width: auto;
+                            opacity: 0;
+                          }   
+
+              }
+            .fl_bg_holder
+              {
+                float: left;
+                background-color: #7FC6A6;
+                padding: 5px 6px 8px 6px;
+                color: #fff;
+                height: 25px;
+                width: 25px;
+
+              }
+            .floating_icon_slected, .floating_right_icon_slected, .floating_up_icon_slected, .floating_down_icon_slected
+              {
+              background-color: #48D1CC;  
+              } 
+
+            .floating_icon_holder input:checked + .fl_bg_holder {
+            background-color: #48D1CC;  
+            }    
+
+
+ }       
+ #sub-accordion-section-fl_position_section{
+    label{
+            float: left;
+            width: 40%;
+    }
+ }
+ #accordion-section-fl_design_section, #sub-accordion-section-fl_design_section
+  {
+
+   #customize-control-fl_shadow
+      {
+          display: list-item;
+    border: 1px solid #EEEEEE;
+    padding: 12px;
+    padding-right: 0px;
+    float: left;
+    width: 95%;
+    background-color: #FDFDFD;
+
+            label
+              {
+                  font-size: 22px;
+              padding: 0px;
+
+              }
+             input[type=checkbox]
+              {
+                  height: 25px;
+              width: 30px;
+              background: #eaeaea;
+              border-radius: 2px;
+              border-color: transparent;
+              } 
+             input[type=checkbox]:before
+              {
+                  color: #738e96;
+                  
+                  float: none;
+                  
+                  margin-top: -6px;
+              } 
+      } 
+    .customize-control-content, .wp-picker-container
+      {
+         float: left;
+          width: 100%;
+
+          .wp-picker-input-wrap
+            {
+          float: left;
+          width: 100%;
+          clear: both;
+              .wp-color-picker
+                {
+                    display: inline-block;
+                width: 64%;
+                padding: 7px;
+                font-size: 15px;
+                }
+               .button
+                {
+                    float: right;
+              background: #7FC6A6;
+              color: #fff;
+              font-size: 17px;
+              border: 0px;
+              padding: 5px 15px;
+              height: auto;
+              -webkit-transition: all ease-in-out .7s;
+              -moz-transition: all ease-in-out .7s;
+              -o-transition: all ease-in-out .7s;
+              transition: all ease-in-out .7s;
+                } 
+               .button:hover
+                {
+                    background: #48D1CC;
+                    -webkit-transition: all ease-in-out .7s;
+              -moz-transition: all ease-in-out .7s;
+              -o-transition: all ease-in-out .7s;
+              transition: all ease-in-out .7s;
+                } 
+            }
+            .wp-picker-holder
+              {
+                  float: left;
+              }
+              .wp-picker-active
+                {
+                    .wp-picker-input-wrap
+                      {
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    }
+                }
+          .wp-color-result
+            {
+                background-color: rgb(0, 0, 0);
+                float: left;
+                width: 88%;
+                border-radius: 5px;
+                text-decoration: none;
+                box-shadow: none;
+                  margin-bottom: 0px;
+                  padding-bottom: 12px;
+               height: 19px;   
+            }
+           .wp-color-result:after
+            {
+
+                width: 68%;
+                right: 0 !important;
+                float: right;
+                  line-height: normal;
+                background: #A9A9A9;
+                font-size: 18px;
+                padding: 5px 15px;
+                color: #fff;
+            } 
+      }
+     .customize-control
+      {
+      padding-bottom: 20px;
+      } 
+      .range_holder
+      {
+       float: left;
+         margin-top: 8px;
+          width: 100%;
+      }  
+   .cs-range-value
+    {
+    float: right;
+    background: #eaeaea;
+    padding: 5px;
+    width: 18%;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+    border-radius: 3px;
+    margin-top: -8px;
+    cursor: default;
+    }   
+  input[type=range]{
+    -webkit-appearance: none;
+        cursor: pointer;
+        float: left;
+    width: 75%;
+    }
+
+    input[type=range]::-webkit-slider-runnable-track {
+        width: 300px;
+        height: 5px;
+        background: #ddd;
+        border: none;
+        border-radius: 3px;
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        border: none;
+        height: 16px;
+        width: 16px;
+       border-radius: 3px;
+        background: #A9A9A9;
+        margin-top: -5px;
+    }
+
+    input[type=range]:focus {
+        outline: none;
+    }
+    input[type=range]::-moz-range-track 
+       {
+     
+        height: 5px;
+        background: #ddd;
+        border: none;
+        border-radius: 3px;
+    }
+
+ input[type=range]::-moz-range-thumb {
+        -webkit-appearance: none;
+        border: none;
+        height: 16px;
+        width: 16px;
+        border-radius: 3px;
+        background: #A9A9A9;
+        margin-top: -5px;
+    }
+
+   input[type=range]:-moz-focusring{
+        outline: none;
+    }
+ input[type=range]:-moz-focusring{
+        outline: none;
+    }  
+
+    input[type=range]::-ms-track {
+  
+        height: 5px;
+        background: #ddd;
+        border: none;
+        border-radius: 3px;
+    }
+
+  
+    input[type=range]::-ms-thumb {
+        -webkit-appearance: none;
+        border: none;
+        height: 16px;
+        width: 16px;
+       border-radius: 3px;
+        background: #A9A9A9;
+        margin-top: -5px;
+    } 
+    input[type=range]:focus {
+        outline: none;
+    }
+
+  }
